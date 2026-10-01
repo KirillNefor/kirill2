@@ -15,3 +15,9 @@ def divide(a, b):
     if b == 0:
         return "Ошибка: деление на ноль"
     return a / b
+def menu():
+    print("1. Сложение")
+    print("2. Вычитание")
+    print("3. Умножение")
+    print("4. Деление")
+    return input("Выберите операцию: ")
